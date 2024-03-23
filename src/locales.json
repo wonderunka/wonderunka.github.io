@@ -1,0 +1,62 @@
+{
+  "en": {
+    "invitation": {
+      "youAreInvitedTo": "Join us for",
+      "theWeddingOf": "the wedding of",
+      "theWeddingOf2": "wedding of",
+      "receptionToFollow": "Save the date in your calendar",
+      "receptionToFollow2": "More details coming soon!",
+      "dear": "Dear",
+      "w1": "Czech",
+      "w2": "Turkish"
+    },
+    "address": {
+      "crtime": "At one o'clock in the afternoon",
+      "trtime": "At five o'clock in the afternoon",
+      "crAddress": "Mlýn Davídkov 36, Hryzely,; 281 63 Barchovice,; Czech Republic",
+      "crDate": "7-8. September 2024",
+      "trAddress": "Akdeniz, Mersin Silifke Yolu 825/A,; 33340 Mezitli/Mersin,; Türkiye",
+      "trDate": "30. August 2024"
+    }
+  },
+  "cs": {
+    "invitation": {
+      "youAreInvitedTo": "Připojte se k oslavě naší",
+      "theWeddingOf": "svatby",
+      "theWeddingOf2": "svatby",
+      "receptionToFollow": "Zapište si datum do  diáře",
+      "receptionToFollow2": "Další podrobnosti již brzy!",
+      "dear": "Milí",
+      "w1": "Českou",
+      "w2": "Tureckou"
+    },
+    "address": {
+      "crtime": "V jednu hodinu odpoledne",
+      "trtime": "V pět hodin odpoledne",
+      "crAddress": "Mlýn Davídkov 36, Hryzely,; 281 63 Barchovice,; Česká republika",
+      "crDate": "7-8. září 2024",
+      "trAddress": "Akdeniz, Mersin Silifke Yolu 825/A,; 33340 Mezitli/Mersin,; Turecko",
+      "trDate": "30. srpna 2024"
+    }
+  },
+  "tr": {
+    "invitation": {
+      "youAreInvitedTo": "Düğünümüzü kutlamaya",
+      "theWeddingOf": "katılın",
+      "theWeddingOf2": "katılın",
+      "receptionToFollow": "Tarihi takvime kaydedin",
+      "receptionToFollow2": "Diğer detaylar çok yakında!",
+      "dear": "Sevgili",
+      "w1": "Çek",
+      "w2": "Türkçe"
+    },
+    "address": {
+      "crtime": "Öğleden sonra beşte",
+      "trtime": "Beşte saat",
+      "crAddress": "Mlýn Davídkov 36, Hryzely,; 281 63 Barchovice,; Çek Cumhuriyeti",
+      "crDate": "7-8 Eylül 2024",
+      "trAddress": "Akdeniz, Mersin Silifke Yolu 825/A,; 33340 Mezitli/Mersin,; Türkiye",
+      "trDate": "30 Ağustos 2024"
+    }
+  }
+}
