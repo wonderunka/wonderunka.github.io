@@ -27,8 +27,8 @@
       "receptionToFollow": "Zapište si datum do  diáře",
       "receptionToFollow2": "Další podrobnosti již brzy!",
       "dear": "Milí",
-      "w1": "Českou",
-      "w2": "Tureckou"
+      "w1": "České",
+      "w2": "Turecké"
     },
     "address": {
       "crtime": "V jednu hodinu odpoledne",
@@ -42,9 +42,9 @@
   "tr": {
     "invitation": {
       "youAreInvitedTo": "Düğünümüzü kutlamaya",
-      "theWeddingOf": "katılın",
-      "theWeddingOf2": "katılın",
-      "receptionToFollow": "Tarihi takvime kaydedin",
+      "theWeddingOf": "seref gosterin",
+      "theWeddingOf2": "seref gosterin",
+      "receptionToFollow": "Tarihi takviminize kaydedin.",
       "receptionToFollow2": "Diğer detaylar çok yakında!",
       "dear": "Sevgili",
       "w1": "Çek",
