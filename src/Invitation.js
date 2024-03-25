@@ -68,13 +68,13 @@ const InvitationPage = ({ weddingType, language, locales }) => {
           />
         }
         <div className="text-container subtitle2 margin-top2 uper-case margin-bottom2">
-          <div className="margin-bottom1 margin-top1">{locales[language].invitation.receptionToFollow}</div>
+          <div className="margin-top1">{locales[language].invitation.receptionToFollow}</div>
         </div>
-        <div className="image-container-bottom">
+        <div className="image-container-bottom" style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center' }}>
           <img
             src={design}
             alt="design-bottom"
-            style={{ transform: 'scale(0.8)', width: '1200px', height: '250px' }}
+            style={{ transform: 'scale(0.8) rotate(180deg)', width: '1200px', height: '250px', marginTop: '-60px' }}
           />
         </div>
       </div>
@@ -131,14 +131,13 @@ const InvitationPage = ({ weddingType, language, locales }) => {
             />
           }
           <div className="text-container subtitle2 margin-top2 uper-case margin-bottom2">
-            <div className="margin-bottom1 margin-top1">{locales[language].invitation.receptionToFollow}</div>
-            {/* <div>{locales[language].invitation.receptionToFollow2}</div> */}
+            <div className="margin-top1">{locales[language].invitation.receptionToFollow}</div>
           </div>
-          <div className="image-container-bottom">
+          <div className="image-container-bottom" style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center' }}>
             <img
               src={design}
               alt="design-bottom"
-              style={{ transform: 'scale(0.8)', width: '1200px', height: '250px' }}
+              style={{ transform: 'scale(0.8) rotate(180deg)', width: '1200px', height: '250px', marginTop: '-60px' }}
             />
           </div>
         </div>
