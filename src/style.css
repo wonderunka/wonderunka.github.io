@@ -10,7 +10,7 @@
   left: 50%;
   transform: translateX(-50%);
   /* Add justify content */
-  /* margin-top: -5vw; */
+  margin-top: -5vw;
 }
 
 .subtitle2 {
@@ -133,4 +133,8 @@
   /* Add general button styles here */
   margin-right: 1vw;
   /* Adjusted margin-right to use vw units */
+}
+
+.margin-bottom3 {
+  margin-bottom: -16vh;
 }
