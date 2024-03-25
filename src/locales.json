@@ -5,10 +5,10 @@
       "theWeddingOf": "the wedding of",
       "theWeddingOf2": "wedding of",
       "receptionToFollow": "Save the date in your calendar",
-      "receptionToFollow2": "More details coming soon!",
       "dear": "Dear",
       "w1": "Czech",
-      "w2": "Turkish"
+      "w2": "Turkish",
+      "and": "and"
     },
     "address": {
       "crtime": "At one o'clock in the afternoon",
@@ -25,10 +25,10 @@
       "theWeddingOf": "svatby",
       "theWeddingOf2": "svatby",
       "receptionToFollow": "Zapište si datum do  diáře",
-      "receptionToFollow2": "Další podrobnosti již brzy!",
       "dear": "Milí",
       "w1": "Českou",
-      "w2": "Tureckou"
+      "w2": "Tureckou",
+      "and": "a"
     },
     "address": {
       "crtime": "V jednu hodinu odpoledne",
@@ -45,10 +45,10 @@
       "theWeddingOf": "katılın",
       "theWeddingOf2": "katılın",
       "receptionToFollow": "Tarihi takvime kaydedin",
-      "receptionToFollow2": "Diğer detaylar çok yakında!",
       "dear": "Sevgili",
       "w1": "Çek",
-      "w2": "Türkçe"
+      "w2": "Türkçe",
+      "and": "ve"
     },
     "address": {
       "crtime": "Öğleden sonra beşte",

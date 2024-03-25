@@ -8,35 +8,36 @@ import locales from './locales.json'; // Assuming you have the locales file in J
 function App() {
   const [nameFromUrl, setNameFromUrl] = useState('');
   const [language, setLanguage] = useState('en');
-  const [weddingType, setWeddingType] = useState('');
+  const [event, setEvent] = useState('');
 
   useEffect(() => {
     const urlSearchParams = new URLSearchParams(window.location.search);
-    const name = urlSearchParams.get('name');
-    const type = urlSearchParams.get('weddingType');
+    const nameParam = urlSearchParams.get('name');
+    const name = decodeURIComponent(nameParam.replace(/\+/g, ' + ')); // Replace '+' with space
+    const type = urlSearchParams.get('event');
     if (name) {
       setNameFromUrl(name);
     }
     if (type) {
-      setWeddingType(type);
+      setEvent(type);
     }
   }, []);
 
   useEffect(() => {
     // Store nameFromUrl and weddingType in sessionStorage
     sessionStorage.setItem('nameFromUrl', nameFromUrl);
-    sessionStorage.setItem('weddingType', weddingType);
-  }, [nameFromUrl, weddingType]);
+    sessionStorage.setItem('event', event);
+  }, [nameFromUrl, event]);
 
   useEffect(() => {
     // Retrieve nameFromUrl and weddingType from sessionStorage when component mounts
     const storedNameFromUrl = sessionStorage.getItem('nameFromUrl');
-    const storedWeddingType = sessionStorage.getItem('weddingType');
+    const storedEvent = sessionStorage.getItem('event');
     if (storedNameFromUrl) {
       setNameFromUrl(storedNameFromUrl);
     }
-    if (storedWeddingType) {
-      setWeddingType(storedWeddingType);
+    if (storedEvent) {
+      setEvent(storedEvent);
     }
   }, []);
 
@@ -47,7 +48,7 @@ function App() {
           <Envelope nameFromUrl={nameFromUrl} setLanguage={setLanguage} language={language} />
         </Route>
         <Route path="/invitation">
-          <InvitationPage weddingType={weddingType} language={language} locales={locales} />
+          <InvitationPage weddingType={event} language={language} locales={locales} />
         </Route>
       </Switch>
     </Router>

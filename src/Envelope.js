@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import EnvelopePic from './envelope.png';
 import { useHistory } from 'react-router-dom';
+import Button from '@mui/material/Button';
 
 const Envelope = ({ nameFromUrl, setLanguage, language }) => {
   const history = useHistory();
@@ -26,24 +27,27 @@ const Envelope = ({ nameFromUrl, setLanguage, language }) => {
       <p className="name-tag text-container subtitle2 margin-bottom" style={titleStyle} onClick={openEnvelope}>
         {nameFromUrl && `${nameFromUrl}`}
         <div className="language-buttons">
-          <button
+          <Button
             className={language === 'en' ? 'selected' : ''}
             onClick={() => handleLanguageChange('en')}
+            style={{ color: language === 'en' ? 'rgb(255, 255, 255)' : 'rgb(111, 60, 58)' }}
           >
             English
-          </button>
-          <button
+          </Button>
+          <Button
             className={language === 'tr' ? 'selected' : ''}
             onClick={() => handleLanguageChange('tr')}
+            style={{ color: language === 'tr' ? 'rgb(255, 255, 255)' : 'rgb(111, 60, 58)' }}
           >
             Turkish
-          </button>
-          <button
+          </Button>
+          <Button
             className={language === 'cs' ? 'selected' : ''}
             onClick={() => handleLanguageChange('cs')}
+            style={{ color: language === 'cs' ? 'rgb(255, 255, 255)' : 'rgb(111, 60, 58)' }}
           >
             Czech
-          </button>
+          </Button>
         </div>
       </p>
     </div>
