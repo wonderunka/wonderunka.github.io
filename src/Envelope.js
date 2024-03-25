@@ -15,16 +15,10 @@ const Envelope = ({ nameFromUrl, setLanguage, language }) => {
     setLanguage(language);
   };
 
-  const titleStyle = {
-    fontFamily: 'Pacifico, cursive',
-    fontSize: '5vw', // Responsive font size using viewport units
-    color: 'rgb(111, 60, 58)',
-  };
-
   return (
     <div className="envelope-container">
       <img className="envelope-img" src={EnvelopePic} alt="envelope" onClick={openEnvelope} />
-      <div className="name-tag text-container subtitle2 margin-bottom" style={titleStyle} onClick={openEnvelope}>
+      <div className="name-tag margin-bottom" onClick={openEnvelope}>
         {nameFromUrl && `${nameFromUrl}`}
         <div className="language-buttons">
           <Button
@@ -55,4 +49,5 @@ const Envelope = ({ nameFromUrl, setLanguage, language }) => {
 };
 
 export default Envelope;
+
 

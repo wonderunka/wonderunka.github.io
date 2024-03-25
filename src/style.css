@@ -1,4 +1,40 @@
-/* Center the image at the top */
+.envelope-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.envelope-img {
+  width: 80vw;
+  /* Adjust width for smaller screens */
+  margin-top: 20px;
+  /* Adjust margin for spacing */
+}
+
+.name-tag {
+  font-size: 8vw;
+  /* Responsive font size */
+  text-align: center;
+  /* Center text */
+  margin-top: 20px;
+  color: rgb(111, 60, 58);
+  font-family: 'MrsEavesRoman Regular';
+}
+
+.language-buttons {
+  margin-top: 10px;
+  /* Adjust margin for spacing */
+}
+
+.language-buttons button {
+  margin: 5px;
+  /* Adjust button margin for spacing */
+  padding: 5px 20px;
+  /* Adjust button padding for tap target */
+  height: 30px;
+  /* Adjust button height */
+}
+
 .image-container-top {
   margin-top: -90px;
   display: flex;
