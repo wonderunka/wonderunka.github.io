@@ -24,7 +24,7 @@ const Envelope = ({ nameFromUrl, setLanguage, language }) => {
   return (
     <div className="envelope-container">
       <img className="envelope-img" src={EnvelopePic} alt="envelope" onClick={openEnvelope} />
-      <p className="name-tag text-container subtitle2 margin-bottom" style={titleStyle} onClick={openEnvelope}>
+      <div className="name-tag text-container subtitle2 margin-bottom" style={titleStyle} onClick={openEnvelope}>
         {nameFromUrl && `${nameFromUrl}`}
         <div className="language-buttons">
           <Button
@@ -49,7 +49,7 @@ const Envelope = ({ nameFromUrl, setLanguage, language }) => {
             Czech
           </Button>
         </div>
-      </p>
+      </div>
     </div>
   );
 };

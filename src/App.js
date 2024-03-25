@@ -13,9 +13,10 @@ function App() {
   useEffect(() => {
     const urlSearchParams = new URLSearchParams(window.location.search);
     const nameParam = urlSearchParams.get('name');
-    const name = decodeURIComponent(nameParam.replace(/\+/g, ' + ')); // Replace '+' with space
     const type = urlSearchParams.get('event');
-    if (name) {
+
+    if (nameParam) { // Check if nameParam is not null before proceeding
+      const name = decodeURIComponent(nameParam.replace(/\+/g, ' '));
       setNameFromUrl(name);
     }
     if (type) {
@@ -41,6 +42,8 @@ function App() {
     }
   }, []);
 
+  console.log('nameFromUrl: ', nameFromUrl);
+  console.log('language: ', language);
   return (
     <Router>
       <Switch>
@@ -56,4 +59,5 @@ function App() {
 }
 
 export default App;
+
 
