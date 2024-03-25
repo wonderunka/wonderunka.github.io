@@ -22,3 +22,9 @@
   color: rgb(111, 60, 58);
   font-family: 'MrsEavesRoman Regular';
 }
+
+.language-buttons button.selected {
+  background-color: rgb(111, 60, 58);
+  color: white;
+  height: 3vh;
+}
