@@ -10,7 +10,7 @@
   left: 50%;
   transform: translateX(-50%);
   /* Add justify content */
-  margin-top: -5vw;
+  /* margin-top: -5vw; */
 }
 
 .subtitle2 {
