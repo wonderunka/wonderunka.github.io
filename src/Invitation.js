@@ -45,7 +45,7 @@ const InvitationPage = ({ weddingType, language, locales }) => {
         </div>
         <div className="text-container subtitle2 uper-case">
           <div>{locales[language].invitation.youAreInvitedTo}</div>
-          <div className="margin-top margin-bottom2">{locales[language].invitation.theWeddingOf}</div>
+          <div className="margin-bottom2">{locales[language].invitation.theWeddingOf}</div>
         </div>
         <div className="text-container subtitle2">
           <Typography variant="h3" style={titleStyle} className="name-container margin-top2">Barbora</Typography>
@@ -73,7 +73,7 @@ const InvitationPage = ({ weddingType, language, locales }) => {
           <img
             src={design}
             alt="design-bottom"
-            style={{ transform: 'scale(0.8) rotate(180deg)', width: '1200px', height: '250px', marginTop: '-60px' }}
+            style={{ transform: 'scale(0.8) rotate(180deg)', width: '1200px', height: '250px' }}
           />
         </div>
       </div>
@@ -90,7 +90,7 @@ const InvitationPage = ({ weddingType, language, locales }) => {
 
           <div className="text-container subtitle2 uper-case">
             <div>{locales[language].invitation.youAreInvitedTo}</div>
-            <div className="margin-top margin-bottom2">
+            <div className="margin-bottom2">
               <div className="language-buttons margin-bottom4">
                 <Button
                   className={currentType === 'TR' ? 'selected' : ''}
@@ -136,7 +136,7 @@ const InvitationPage = ({ weddingType, language, locales }) => {
             <img
               src={design}
               alt="design-bottom"
-              style={{ transform: 'scale(0.8) rotate(180deg)', width: '1200px', height: '250px', marginTop: '-60px' }}
+              style={{ transform: 'scale(0.8) rotate(180deg)', width: '1200px', height: '250px' }}
             />
           </div>
         </div>
