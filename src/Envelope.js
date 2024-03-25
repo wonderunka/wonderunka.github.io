@@ -17,7 +17,7 @@ const Envelope = ({ nameFromUrl, setLanguage, language }) => {
 
   const titleStyle = {
     fontFamily: 'Pacifico, cursive',
-    fontSize: '65px',
+    fontSize: '5vw', // Responsive font size using viewport units
     color: 'rgb(111, 60, 58)',
   };
 
@@ -55,3 +55,4 @@ const Envelope = ({ nameFromUrl, setLanguage, language }) => {
 };
 
 export default Envelope;
+
