@@ -13,7 +13,7 @@
 .name-tag {
   font-size: 6vw;
   position: absolute;
-  top: 50%;
+  top: 50vh;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
