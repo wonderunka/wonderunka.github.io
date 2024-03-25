@@ -69,13 +69,13 @@ const InvitationPage = ({ weddingType, language, locales }) => {
         <div className="text-container subtitle2 margin-top2 uper-case margin-bottom2">
           <div className="margin-top1 margin-bottom3">{locales[language].invitation.receptionToFollow}</div>
         </div>
-        {/* <div className="image-container-bottom">
+        <div className="image-container-bottom">
           <img
             src={design}
             alt="design-bottom"
             style={{ transform: 'scale(0.8) rotate(180deg)', width: '1200px', height: '250px' }}
           />
-        </div> */}
+        </div>
       </div>
     ) :
       (
@@ -132,13 +132,13 @@ const InvitationPage = ({ weddingType, language, locales }) => {
           <div className="text-container subtitle2 margin-top2 uper-case margin-bottom2">
             <div className="margin-top1 margin-bottom3">{locales[language].invitation.receptionToFollow}</div>
           </div>
-          {/* <div className="image-container-bottom">
+          <div className="image-container-bottom">
             <img
               src={design}
               alt="design-bottom"
               style={{ transform: 'scale(0.8) rotate(180deg)', width: '1200px', height: '250px' }}
             />
-          </div> */}
+          </div>
         </div>
       )
   );
