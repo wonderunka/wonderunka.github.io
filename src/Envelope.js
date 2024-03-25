@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Envelope.css';
 import EnvelopePic from './envelope.png';
 import { useHistory } from 'react-router-dom';
 import Button from '@mui/material/Button';

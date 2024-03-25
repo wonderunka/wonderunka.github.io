@@ -4,7 +4,6 @@ import design from "./design.jpg";
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
-import './App.css';
 import './style.css';
 
 const titleStyle = {
@@ -68,7 +67,7 @@ const InvitationPage = ({ weddingType, language, locales }) => {
           />
         }
         <div className="text-container subtitle2 margin-top2 uper-case margin-bottom2">
-          <div className="margin-top1">{locales[language].invitation.receptionToFollow}</div>
+          <div>{locales[language].invitation.receptionToFollow}</div>
         </div>
         <div className="image-container-bottom" style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'center' }}>
           <img
