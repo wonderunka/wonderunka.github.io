@@ -42,8 +42,6 @@ function App() {
     }
   }, []);
 
-  console.log('nameFromUrl: ', nameFromUrl);
-  console.log('language: ', language);
   return (
     <Router>
       <Switch>
