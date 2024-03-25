@@ -17,15 +17,10 @@
 
   .image-container-bottom {
     position: absolute;
-    /* Position the image absolutely within the text container */
     bottom: 0;
-    /* Align the image at the bottom of the text container */
     left: 50%;
-    /* Align the image horizontally at the center */
     transform: translateX(-50%) rotate(180deg);
-    /* Apply rotation */
     margin-top: 20px;
-    /* Add margin between the text and the image */
   }
 }
 
