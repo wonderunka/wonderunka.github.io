@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wonderunka.github.io/static/css/main.f72d3dcf.css",
-    "main.js": "/wonderunka.github.io/static/js/main.c232c6d3.js",
+    "main.css": "/wonderunka.github.io/static/css/main.574374ae.css",
+    "main.js": "/wonderunka.github.io/static/js/main.37fd6129.js",
     "static/media/envelope.png": "/wonderunka.github.io/static/media/envelope.9f3ccc5d31827763e2ae.png",
     "static/media/design.jpg": "/wonderunka.github.io/static/media/design.ef613e3f790b3315fd33.jpg",
     "index.html": "/wonderunka.github.io/index.html",
-    "main.f72d3dcf.css.map": "/wonderunka.github.io/static/css/main.f72d3dcf.css.map",
-    "main.c232c6d3.js.map": "/wonderunka.github.io/static/js/main.c232c6d3.js.map"
+    "main.574374ae.css.map": "/wonderunka.github.io/static/css/main.574374ae.css.map",
+    "main.37fd6129.js.map": "/wonderunka.github.io/static/js/main.37fd6129.js.map"
   },
   "entrypoints": [
-    "static/css/main.f72d3dcf.css",
-    "static/js/main.c232c6d3.js"
+    "static/css/main.574374ae.css",
+    "static/js/main.37fd6129.js"
   ]
 }
