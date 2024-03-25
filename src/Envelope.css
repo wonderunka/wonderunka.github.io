@@ -13,12 +13,13 @@
 .name-tag {
   font-size: 6vw;
   position: absolute;
-  top: 50vh;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: bold;
   text-align: center;
-  /* margin-top: 5vh; */
+  margin-top: 2vh;
+  /* Adjust the margin-top */
   color: rgb(111, 60, 58);
   font-family: 'MrsEavesRoman Regular';
 }
