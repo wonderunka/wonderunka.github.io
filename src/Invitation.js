@@ -35,7 +35,7 @@ const InvitationPage = ({ weddingType, language, locales }) => {
 
   return (
     weddingType ? (
-      <div>
+      <div className="container">
         <div className="image-container-top">
           <img
             src={design}
@@ -79,7 +79,7 @@ const InvitationPage = ({ weddingType, language, locales }) => {
       </div>
     ) :
       (
-        <div>
+        <div className="container">
           <div className="image-container-top">
             <img
               src={design}

@@ -138,3 +138,13 @@
 .margin-bottom3 {
   margin-bottom: 3vh;
 }
+
+.container {
+  /* display: flex;
+  justify-content: center; */
+  /* Horizontal centering */
+  align-items: center;
+  /* Vertical centering */
+  height: 100vh;
+  /* Adjust height as needed */
+}
