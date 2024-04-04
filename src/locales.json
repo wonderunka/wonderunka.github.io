@@ -41,18 +41,18 @@
   },
   "tr": {
     "invitation": {
-      "youAreInvitedTo": "Düğünümüzü kutlamaya",
-      "theWeddingOf": "katılın",
-      "theWeddingOf2": "katılın",
+      "youAreInvitedTo": "Biz evlenirken sizleri",
+      "theWeddingOf": "düğünümüzde bizimle eğlenmeye davet ediyoruz",
+      "theWeddingOf2": "düğünümüzde bizimle eğlenmeye davet ediyoruz",
       "receptionToFollow": "Tarihi takvime kaydedin",
       "dear": "Sevgili",
-      "w1": "Çekçe",
-      "w2": "Türkçe",
+      "w1": "Çek",
+      "w2": "Türk",
       "and": "ve"
     },
     "address": {
-      "crtime": "Öğleden sonra beşte",
-      "trtime": "Beşte saat",
+      "crtime": "Düğünümüz saat 13.00 da başlayacaktır",
+      "trtime": "Düğünümüz saat 17.00 da başlayacaktır",
       "crAddress": "Mlýn Davídkov 36, Hryzely,; 281 63 Barchovice,; Çek Cumhuriyeti",
       "crDate": "7-8 Eylül 2024",
       "trAddress": "Akdeniz, Mersin Silifke Yolu 825/A,; 33340 Mezitli/Mersin,; Türkiye",

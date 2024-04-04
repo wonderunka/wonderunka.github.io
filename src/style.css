@@ -17,7 +17,7 @@
   font-family: 'MrsEavesRoman Regular';
   font-style: normal;
   line-height: 1;
-  font-size: 5vw;
+  font-size: 3vw;
   /* Adjusted font size to use vw units */
   color: rgb(111, 60, 58);
   margin-bottom: 2vh;
@@ -57,7 +57,7 @@
 }
 
 .date {
-  font-size: 5vw;
+  font-size: 4%;
   /* Adjusted font size to use vw units */
   font-style: italic;
 }
@@ -72,7 +72,7 @@
   font-style: normal;
   line-height: 1;
   letter-spacing: 2px;
-  font-size: 4.5vw;
+  font-size: 4vw;
   /* Adjusted font size to use vw units */
   color: rgb(111, 60, 58);
   margin-bottom: 4vh;
@@ -96,7 +96,7 @@
 }
 
 .address {
-  font-size: 3vw;
+  font-size: 2.5vw;
   /* Adjusted font size to use vw units */
   font-style: italic;
   font-weight: normal;
@@ -136,5 +136,5 @@
 }
 
 .margin-bottom3 {
-  margin-bottom: -16vh;
+  margin-bottom: -1vh;
 }
