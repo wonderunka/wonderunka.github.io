@@ -138,7 +138,7 @@ function Website({ event, language }) {
         <img
           src={design}
           alt="design-bottom"
-          style={{ transform: 'scale(0.8)' }}
+          style={{ transform: 'scale(0.8)', marginBottom: '40px' }}
         />
       </div>
     </ThemeProvider>
