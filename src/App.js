@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Envelope from './Envelope';
 import InvitationPage from './Invitation';
+import Website from './website/src/Website';
+import './website/src/App.css';
+import './website/src/style.css';
 
 import locales from './locales.json'; // Assuming you have the locales file in JSON format
 
@@ -43,6 +46,9 @@ function App() {
   return (
     <Router>
       <Switch>
+      <Route exact path="/website">
+          <Website />
+        </Route>
         <Route exact path="/">
           <Envelope nameFromUrl={nameFromUrl} setLanguage={setLanguage} language={language} />
         </Route>
