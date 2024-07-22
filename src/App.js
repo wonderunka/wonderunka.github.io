@@ -49,13 +49,14 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Envelope nameFromUrl={nameFromUrl} setLanguage={setLanguage} language={language} />
+          {/* <Envelope nameFromUrl={nameFromUrl} setLanguage={setLanguage} language={language} /> */}
+          <Website weddingType={event} language={language} />
         </Route>
         <Route path="/home">
           <Website weddingType={event} language={language} />
         </Route>
         <Route path="/invitation">
-          <InvitationPage weddingType={event} language={language} locales={locales} />
+          <InvitationPage event={event} language={language} locales={locales} />
         </Route>
         <Route path="*">
           <Redirect to="/home" />
