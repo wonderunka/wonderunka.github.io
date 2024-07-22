@@ -5,8 +5,7 @@ import InvitationPage from './Invitation';
 import Website from './website/src/Website';
 import './website/src/App.css';
 import './website/src/style.css';
-
-import locales from './locales.json'; // Assuming you have the locales file in JSON format
+import locales from './locales.json';
 
 function App() {
   const [nameFromUrl, setNameFromUrl] = useState('');
@@ -18,7 +17,7 @@ function App() {
     const nameParam = urlSearchParams.get('name');
     const type = urlSearchParams.get('event');
 
-    if (nameParam) { // Check if nameParam is not null before proceeding
+    if (nameParam) {
       const name = decodeURIComponent(nameParam.replace(/\+/g, ' '));
       setNameFromUrl(name);
     }
@@ -28,29 +27,15 @@ function App() {
   }, []);
 
   useEffect(() => {
-    // Store nameFromUrl and weddingType in sessionStorage
-    sessionStorage.setItem('nameFromUrl', nameFromUrl);
+    sessionStorage.setItem('name', nameFromUrl);
     sessionStorage.setItem('event', event);
   }, [nameFromUrl, event]);
-
-  useEffect(() => {
-    // Retrieve nameFromUrl and weddingType from sessionStorage when component mounts
-    const storedNameFromUrl = sessionStorage.getItem('nameFromUrl');
-    const storedEvent = sessionStorage.getItem('event');
-    if (storedNameFromUrl) {
-      setNameFromUrl(storedNameFromUrl);
-    }
-    if (storedEvent) {
-      setEvent(storedEvent);
-    }
-  }, []);
 
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          {/* <Envelope nameFromUrl={nameFromUrl} setLanguage={setLanguage} language={language} /> */}
-          <Website weddingType={event} language={language} />
+          <Website event={event} language={language} />
         </Route>
         <Route path="/home">
           <Website event={event} language={language} />

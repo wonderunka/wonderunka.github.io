@@ -103,7 +103,6 @@ const textStyles = {
 
 function Website({ event, language }) {
   const [locale, setLocale] = useState(language ? language : 'en');
-
   const handleLanguageChange = (newLocale) => {
     setLocale(newLocale);
   };

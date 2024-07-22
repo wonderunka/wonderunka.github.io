@@ -10,7 +10,6 @@ function Location({ locale, event }) {
   const [selectedStartingPoint, setSelectedStartingPoint] = useState(event);
 
   const handleStartingPointChange = (event) => {
-    console.log('event: ', event.target.value);
     setSelectedStartingPoint(event.target.value);
   };
 

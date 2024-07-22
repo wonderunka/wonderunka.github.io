@@ -9,7 +9,6 @@ import Harmonogram from "../pages/harmonogram";
 import { LOCALES } from '../locales/locales';
 
 function MyTabs({ locale, event }) {
-
     const [currentTabIndex, setCurrentTabIndex] = useState(0);
     const handleTabChange = (e, tabIndex) => {
         setCurrentTabIndex(tabIndex);
