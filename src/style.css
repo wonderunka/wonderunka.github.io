@@ -1,109 +1,70 @@
-/* Center the image at the top */
 .image-container-top {
-    margin-top: -90px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    /* margin-bottom: 20px; */
-  }
-
-  /* Center the design-bottom image at the bottom */
-  .image-container-bottom {
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%) rotate(180deg);
-  }
-  
-  /* Styles for language switcher button */
-  .language-switcher-button {
-    color: rgb(111, 60, 58);
-    cursor: pointer;
-    margin-right: 10px;
-  }
-
-  .rsvp-button {
-    color: rgb(111, 60, 58);
-    cursor: pointer;
-    margin-right: 10px;
-    height: 35px; 
-  }
-  
-  /* Center the name container */
-  .name-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  /* Styles for the home tab picture */
-.home-tab-picture {
-    display: block;
-    width: 50%; /* Set the width to 50% */
-    margin: 0;
-    margin-bottom: 30px;
-    box-sizing: border-box;
-    border: 8px solid rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-bottom: 8px;
-  }
-  
-  input, select {
-    margin-bottom: 16px;
-    padding: 8px;
-  }
-
-  /* styles.css */
-
-.title1 {
-  font-family: 'Adelicia Script Clean Regular';
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.2;
-  text-transform: none;
-  letter-spacing: -0.1px;
-  font-size: 42.8px;
-  color: rgb(111, 60, 58);
+  margin-top: -5vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.subtitle1 {
-  font-family: 'MrsEavesRoman Regular';
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 14px;
-  color: rgb(111, 60, 58);
-  margin-bottom: 40px;
-  margin-top: 40px;
+.image-container-bottom {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Add justify content */
+  margin-top: -7vw;
 }
 
 .subtitle2 {
   font-family: 'MrsEavesRoman Regular';
   font-style: normal;
   line-height: 1;
-  /* letter-spacing: 5px; */
-  font-size: 14px;
+  font-size: 3vw;
+  /* Adjusted font size to use vw units */
   color: rgb(111, 60, 58);
-  margin-bottom: 10px;
-  margin-top: -30px;
+  margin-bottom: 2vh;
+  /* Adjusted margin-bottom to use vh units */
+  margin-top: -3vh;
+  /* Adjusted margin-top to use vh units */
   font-weight: bold;
+}
+
+.uper-case {
+  text-transform: uppercase;
+  font-size: 3vw;
+  /* Adjusted font size to use vw units */
+}
+
+.margin-top {
+  margin-top: 1vh;
+  /* Adjusted margin-top to use vh units */
+}
+
+/* Center the name container */
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.margin-top2 {
+  margin-top: 3vh;
+  /* Adjusted margin-top to use vh units */
+}
+
+.margin-bottom {
+  margin-bottom: 2vh;
+  /* Adjusted margin-bottom to use vh units */
+}
+
+.date {
+  font-size: 4%;
+  /* Adjusted font size to use vw units */
+  font-style: italic;
+}
+
+.margin-bottom2 {
+  margin-bottom: 4vh;
+  /* Adjusted margin-bottom to use vh units */
 }
 
 .subtitle3 {
@@ -111,10 +72,13 @@
   font-style: normal;
   line-height: 1;
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 4vw;
+  /* Adjusted font size to use vw units */
   color: rgb(111, 60, 58);
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin-bottom: 4vh;
+  /* Adjusted margin-bottom to use vh units */
+  margin-top: 2vh;
+  /* Adjusted margin-top to use vh units */
   font-weight: bold;
 }
 
@@ -124,102 +88,63 @@
   font-style: normal;
   line-height: 1.1;
   letter-spacing: normal;
-  font-size: 6px;
+  font-size: 2.5vw;
+  /* Adjusted font size to use vw units */
   color: rgb(111, 60, 58);
-  margin-bottom: 10px;
-}
-
-.button {
-  font-style: italic;
-}
-
-.titleName {
-  font-family: "Adelicia Script Clean Regular";
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.2;
-  letter-spacing: -0.1px;
-  font-size: 42.8px;
-  color: rgb(111, 60, 58);
-  text-align: center;
-  margin: 0;
-}
-
-.subtitle4 {
-  font-family: 'MrsEavesRoman Regular';
-  font-weight: 400;
-  line-height: 1;
-  text-transform: uppercase;
-  font-size: 12px;
-  color: rgb(111, 60, 58);
-}
-
-
-.location-image {
-  width: 50%; /* Set width to 50% */
-  max-width: 140px; /* Optionally set a maximum width */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 20px;
-}
-
-.margin-top {
-  margin-top: 5px;
-}
-
-.margin-top2 {
-  margin-top: 25px;
-}
-
-.margin-top3 {
-  margin-top: 70px;
-}
-
-.margin-bottom4 {
-  margin-bottom: 5px;
-}
-
-.margin-bottom {
-  margin-bottom: 20px;
-}
-.margin-bottom1 {
-  margin-bottom: 10px;
-}
-
-.margin-bottom2 {
-  margin-bottom: 40px;
-}
-
-.uper-case{
-  text-transform: uppercase;
-  font-size: 20px;
+  margin-bottom: 2vh;
+  /* Adjusted margin-bottom to use vh units */
 }
 
 .address {
-  font-size: 15px;
+  font-size: 2.5vw;
+  /* Adjusted font size to use vw units */
   font-style: italic;
-  font-weight: normal; /* Not bold */
-}
-
-.date {
-  font-size: 30px;
-  font-style: italic;
-  /* font-weight: bold; */
+  font-weight: normal;
 }
 
 .selected {
   background-color: 'rgb(111, 60, 58)';
-  color: white,
+  color: white;
+  /* Removed comma */
 }
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.language-switcher-button {
+  color: rgb(111, 60, 58);
+  cursor: pointer;
+  margin-right: 2vw;
+  /* Adjusted margin-right to use vw units */
+}
+
 
 /* Add styles for the selected button */
 .language-buttons button.selected {
   background-color: rgb(111, 60, 58);
   color: white;
-  /* Add any additional styles for the selected button */
 }
 
-/* Add styles for all buttons */
 .language-buttons button {
   /* Add general button styles here */
-  margin-right: 10px; /* Example margin */
+  margin-right: 1vw;
+  /* Adjusted margin-right to use vw units */
+}
+
+.margin-bottom3 {
+  margin-bottom: 3vh;
+}
+
+.container {
+  /* display: flex;
+  justify-content: center; */
+  /* Horizontal centering */
+  align-items: center;
+  /* Vertical centering */
+  height: 100vh;
+  /* Adjust height as needed */
 }

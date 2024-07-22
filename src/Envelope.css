@@ -1,32 +1,30 @@
-/* App.css */
 .envelope-container {
-  position: relative;
-  width: 200px; /* Adjust the size as needed */
-}
-
-.envelope-link {
-  text-decoration: none;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .envelope-img {
-  width: 100%;
-  height: auto;
-  cursor: pointer;
+  width: 80vw;
+  margin-top: 5vh;
 }
 
 .name-tag {
+  font-size: 6vw;
   position: absolute;
-  top: 50%;
+  top: 50vh;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
   font-weight: bold;
-  color: #000;
-  opacity: 0; /* Initially hide the name tag */
-  transition: opacity 0.5s ease; /* Add transition for a smooth effect */
+  text-align: center;
+  /* Adjust the margin-top */
+  color: rgb(111, 60, 58);
+  font-family: 'MrsEavesRoman Regular';
 }
 
-.name-tag.visible {
-  opacity: 1; /* Make the name tag visible when the envelope is clicked */
+.language-buttons button.selected {
+  background-color: rgb(111, 60, 58);
+  color: white;
+  height: 3vh;
 }

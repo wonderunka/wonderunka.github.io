@@ -5,10 +5,10 @@
       "theWeddingOf": "the wedding of",
       "theWeddingOf2": "wedding of",
       "receptionToFollow": "Save the date in your calendar",
-      "receptionToFollow2": "More details coming soon!",
       "dear": "Dear",
       "w1": "Czech",
-      "w2": "Turkish"
+      "w2": "Turkish",
+      "and": "and"
     },
     "address": {
       "crtime": "At one o'clock in the afternoon",
@@ -25,10 +25,11 @@
       "theWeddingOf": "svatby",
       "theWeddingOf2": "svatby",
       "receptionToFollow": "Zapište si datum do  diáře",
-      "receptionToFollow2": "Další podrobnosti již brzy!",
       "dear": "Milí",
+
       "w1": "České",
-      "w2": "Turecké"
+      "w2": "Turecké",
+      "and": "a"
     },
     "address": {
       "crtime": "V jednu hodinu odpoledne",
@@ -42,17 +43,18 @@
   "tr": {
     "invitation": {
       "youAreInvitedTo": "Düğünümüzü kutlamaya",
-      "theWeddingOf": "seref gosterin",
-      "theWeddingOf2": "seref gosterin",
-      "receptionToFollow": "Tarihi takviminize kaydedin.",
+      "theWeddingOf": "katılın",
+      "theWeddingOf2": "katılın",
+      "receptionToFollow": "Tarihi takvime kaydedin",
       "receptionToFollow2": "Diğer detaylar çok yakında!",
       "dear": "Sevgili",
       "w1": "Çek",
-      "w2": "Türkçe"
+      "w2": "Türk",
+      "and": "ve"
     },
     "address": {
-      "crtime": "Öğleden sonra beşte",
-      "trtime": "Beşte saat",
+      "crtime": "Düğünümüz saat 13.00 da başlayacaktır",
+      "trtime": "Düğünümüz saat 17.00 da başlayacaktır",
       "crAddress": "Mlýn Davídkov 36, Hryzely,; 281 63 Barchovice,; Çek Cumhuriyeti",
       "crDate": "7-8 Eylül 2024",
       "trAddress": "Akdeniz, Mersin Silifke Yolu 825/A,; 33340 Mezitli/Mersin,; Türkiye",
