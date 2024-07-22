@@ -140,3 +140,40 @@
   height: 100vh;
   /* Adjust height as needed */
 }
+
+
+@media (max-width: 844px) {
+  #root {
+    margin-left: 300px;
+    width: 100%;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    /* Adjust padding for better fit on small screens */
+  }
+
+  .uper-case {
+    text-transform: uppercase;
+    font-size: 4.5vw;
+    /* Increase font size for better readability on small screens */
+  }
+
+  .subtitle2 {
+    font-family: 'MrsEavesRoman Regular';
+    font-style: normal;
+    line-height: 1;
+    font-size: 5vw;
+    /* Increase font size for better readability on small screens */
+    color: rgb(111, 60, 58);
+    margin-bottom: 3vh;
+    /* Adjust margin for better spacing on small screens */
+    margin-top: -2vh;
+    /* Adjust margin for better spacing on small screens */
+    font-weight: bold;
+  }
+}

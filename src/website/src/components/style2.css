@@ -143,3 +143,62 @@
   height: 100vh;
   /* Adjust height as needed */
 }
+
+.invitation-box {
+  border: 1px solid rgb(111, 60, 58);
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 844px) {
+  #root {
+    margin-left: 300px;
+    width: 100%;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    /* Adjust padding for better fit on small screens */
+  }
+
+  .uper-case {
+    text-transform: uppercase;
+    font-size: 4.5vw;
+    /* Increase font size for better readability on small screens */
+  }
+
+  .subtitle2 {
+    font-family: 'MrsEavesRoman Regular';
+    font-style: normal;
+    line-height: 1;
+    font-size: 5vw;
+    /* Increase font size for better readability on small screens */
+    color: rgb(111, 60, 58);
+    margin-bottom: 3vh;
+    font-weight: bold;
+  }
+
+  .subtitle3 {
+    font-family: 'MrsEavesRoman Regular';
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-size: 6vw;
+    /* Adjusted font size to use vw units */
+    color: rgb(111, 60, 58);
+    margin-bottom: 4vh;
+    font-weight: bold;
+  }
+
+  .address {
+    font-size: 5vw;
+    /* Adjusted font size to use vw units */
+    font-style: italic;
+    font-weight: normal;
+  }
+}

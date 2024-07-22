@@ -21,6 +21,7 @@ function MyTabs({ locale, event }) {
                 flexDirection="column"
                 alignItems="center" // Center horizontally
                 justifyContent="center" // Center vertically
+            // width='fit-content'
             >
                 <Tabs
                     value={currentTabIndex}

@@ -76,13 +76,7 @@
 
   .language-switcher-container {
     position: absolute;
-    bottom: 10px;
-    /* Align to the bottom */
-    left: 10px;
-    /* Align to the left */
-    top: auto;
-    /* Reset top value */
-    right: auto;
-    /* Reset right value */
+    /* Position it absolutely within the parent */
+    right: 0;
   }
 }

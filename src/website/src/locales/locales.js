@@ -23,7 +23,7 @@ export const LOCALES = {
       INVITATION: 'Invitation',
       OUR_STORY: 'Our Story',
       GALLERY: 'Gallery',
-      LOCATION: 'Location & Directions',
+      LOCATION: 'Location',
       HARMONOGRAM: 'Timeline',
     },
     HOME: {
@@ -155,10 +155,10 @@ export const LOCALES = {
     },
     TABS: {
       HOME: 'Anasayfa',
-      INVITATION: 'Davet',
+      INVITATION: 'Davetiye',
       OUR_STORY: 'Hikayemiz',
       GALLERY: 'Galeri',
-      LOCATION: 'Konum ve Yol Tarifi',
+      LOCATION: 'Konum',
       HARMONOGRAM: 'Program',
     },
     HOME: {
@@ -290,7 +290,7 @@ export const LOCALES = {
       INVITATION: 'Pozvánka',
       OUR_STORY: 'Náš Příběh',
       GALLERY: 'Galerie',
-      LOCATION: 'Místo a Pokyny',
+      LOCATION: 'Místo',
       HARMONOGRAM: 'Harmonogram',
     },
     HOME: {

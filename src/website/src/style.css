@@ -1,13 +1,12 @@
-/* Center the image at the top */
+/* Base Styles */
+
 .image-container-top {
   margin-top: -90px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  /* margin-bottom: 20px; */
 }
 
-/* Center the design-bottom image at the bottom */
 .image-container-bottom {
   display: flex;
   align-items: flex-end;
@@ -16,7 +15,6 @@
   margin-top: 10px;
 }
 
-/* Styles for language switcher button */
 .language-switcher-button {
   color: rgb(111, 60, 58);
   cursor: pointer;
@@ -30,7 +28,6 @@
   height: 35px;
 }
 
-/* Center the name container */
 .name-container {
   margin-top: -50px;
   display: flex;
@@ -39,11 +36,9 @@
   text-align: center;
 }
 
-/* Styles for the home tab picture */
 .home-tab-picture {
   display: block;
   width: 50%;
-  /* Set the width to 50% */
   margin: 0;
   margin-bottom: 30px;
   box-sizing: border-box;
@@ -64,4 +59,84 @@ input,
 select {
   margin-bottom: 16px;
   padding: 8px;
+}
+
+/* Media Queries */
+
+/* For smaller phones (portrait) */
+@media (max-width: 576px) {
+  .image-container-top {
+    margin-top: -60px;
+  }
+
+  .image-container-bottom {
+    margin-top: 5px;
+  }
+
+  .name-container {
+    margin-top: -30px;
+  }
+
+  .home-tab-picture {
+    width: 90%;
+    margin-bottom: 20px;
+    border: 4px solid rgb(255, 255, 255);
+  }
+
+  .rsvp-button,
+  .language-switcher-button {
+    height: 30px;
+  }
+}
+
+/* For larger phones (landscape) and small tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .image-container-top {
+    margin-top: -75px;
+  }
+
+  .image-container-bottom {
+    margin-top: 8px;
+  }
+
+  .name-container {
+    margin-top: -40px;
+  }
+
+  .home-tab-picture {
+    width: 70%;
+    margin-bottom: 25px;
+    border: 6px solid rgb(255, 255, 255);
+  }
+
+  .rsvp-button,
+  .language-switcher-button {
+    height: 32px;
+  }
+}
+
+/* For tablets and small desktops */
+@media (min-width: 769px) and (max-width: 992px) {
+  .image-container-top {
+    margin-top: -80px;
+  }
+
+  .image-container-bottom {
+    margin-top: 9px;
+  }
+
+  .name-container {
+    margin-top: -45px;
+  }
+
+  .home-tab-picture {
+    width: 60%;
+    margin-bottom: 30px;
+    border: 7px solid rgb(255, 255, 255);
+  }
+
+  .rsvp-button,
+  .language-switcher-button {
+    height: 34px;
+  }
 }

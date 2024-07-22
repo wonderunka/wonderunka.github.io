@@ -38,7 +38,10 @@ const InvitationPage = ({ weddingType, language }) => {
 
   return (
     weddingType ? (
-      <Box sx={{ textAlign: "center", margin: "40px" }}>
+      <Box sx={{
+        textAlign: "center", margin: "40px"
+      }}
+        className="invitation-box">
         {/* <div className="image-container-top">
           <img
             src={design}
