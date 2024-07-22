@@ -48,14 +48,14 @@ function App() {
   return (
     <Router>
       <Switch>
-      <Route exact path="/website">
-          <Website />
-        </Route>
         <Route exact path="/">
           <Envelope nameFromUrl={nameFromUrl} setLanguage={setLanguage} language={language} />
         </Route>
         <Route path="/invitation">
           <InvitationPage weddingType={event} language={language} locales={locales} />
+        </Route>
+        <Route exact path="/home">
+          <Website />
         </Route>
       </Switch>
     </Router>
