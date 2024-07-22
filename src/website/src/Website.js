@@ -101,22 +101,12 @@ const textStyles = {
 };
 
 
-function Website() {
-  const [locale, setLocale] = useState('en');
-  const [event, setEvent] = useState('');
+function Website({ event, language }) {
+  const [locale, setLocale] = useState(language ? language : 'en');
 
   const handleLanguageChange = (newLocale) => {
     setLocale(newLocale);
   };
-
-  useEffect(() => {
-    const urlSearchParams = new URLSearchParams(window.location.search);
-    const type = urlSearchParams.get('event');
-
-    if (type) {
-      setEvent(type);
-    }
-  }, []);
 
   return (
     <ThemeProvider theme={theme}>
