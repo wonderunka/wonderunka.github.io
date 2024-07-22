@@ -94,7 +94,7 @@ const InvitationPage = ({ weddingType, language }) => {
           <MyPic />
           <div className="text-container subtitle2 uper-case">
             <div>{LOCALES[language].invitation.youAreInvitedTo}</div>
-            <div className="margin-bottom2">
+            <div className="">
               <div className="language-buttons margin-bottom4">
                 <Button
                   className={currentType === 'TR' ? 'selected' : ''}

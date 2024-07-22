@@ -53,7 +53,7 @@ function App() {
           <Website weddingType={event} language={language} />
         </Route>
         <Route path="/home">
-          <Website weddingType={event} language={language} />
+          <Website event={event} language={language} />
         </Route>
         <Route path="/invitation">
           <InvitationPage event={event} language={language} locales={locales} />

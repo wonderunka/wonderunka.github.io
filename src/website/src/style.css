@@ -1,88 +1,67 @@
-.App {
-  text-align: center;
+/* Center the image at the top */
+.image-container-top {
+  margin-top: -90px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* margin-bottom: 20px; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Center the design-bottom image at the bottom */
+.image-container-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transform: rotate(180deg);
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styles for language switcher button */
+.language-switcher-button {
+  color: rgb(111, 60, 58);
+  cursor: pointer;
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rsvp-button {
+  color: rgb(111, 60, 58);
+  cursor: pointer;
+  margin-right: 10px;
+  height: 35px;
+}
+
+/* Center the name container */
+.name-container {
+  margin-top: -50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.image-container {
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.image-container img {
-  margin-top: -50px;
-  margin-bottom: -400px;
-  padding: 0;
+/* Styles for the home tab picture */
+.home-tab-picture {
   display: block;
-  height: auto;
+  width: 50%;
+  /* Set the width to 50% */
+  margin: 0;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  border: 8px solid rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
 }
 
-.language-switcher-container {
-  position: absolute;
-  top: -40px;
-  right: 10px;
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-/* Media query for phones */
-@media (max-width: 767px) {
-  .image-container {
-    margin-top: 10px;
-    height: auto;
-  }
+label {
+  margin-bottom: 8px;
+}
 
-  .image-container img {
-    margin-top: -20px;
-    margin-bottom: -100px;
-  }
-
-  .language-switcher-container {
-    position: absolute;
-    bottom: 10px;
-    /* Align to the bottom */
-    left: 10px;
-    /* Align to the left */
-    top: auto;
-    /* Reset top value */
-    right: auto;
-    /* Reset right value */
-  }
+input,
+select {
+  margin-bottom: 16px;
+  padding: 8px;
 }
