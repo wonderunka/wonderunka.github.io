@@ -1,0 +1,145 @@
+.image-container-top {
+  margin-top: -5vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.image-container-bottom {
+  /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+  /* Add justify content */
+  /* margin-top: -7vw; */
+}
+
+.subtitle2 {
+  font-family: 'MrsEavesRoman Regular';
+  font-style: normal;
+  line-height: 1;
+  font-size: 3vw;
+  /* Adjusted font size to use vw units */
+  color: rgb(111, 60, 58);
+  margin-bottom: 2vh;
+  /* Adjusted margin-bottom to use vh units */
+  margin-top: -3vh;
+  /* Adjusted margin-top to use vh units */
+  /* font-weight: bold; */
+}
+
+.uper-case {
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  /* Adjusted font size to use vw units */
+}
+
+.margin-top {
+  margin-top: 1vh;
+  /* Adjusted margin-top to use vh units */
+}
+
+/* Center the name container */
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.margin-top2 {
+  margin-top: 3vh;
+  /* Adjusted margin-top to use vh units */
+}
+
+.margin-bottom {
+  margin-bottom: 2vh;
+  /* Adjusted margin-bottom to use vh units */
+}
+
+.date {
+  font-size: 4%;
+  /* Adjusted font size to use vw units */
+  font-style: italic;
+}
+
+.margin-bottom2 {
+  margin-bottom: 4vh;
+  /* Adjusted margin-bottom to use vh units */
+}
+
+.subtitle3 {
+  font-family: 'MrsEavesRoman Regular';
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 2px;
+  font-size: 2vw;
+  /* Adjusted font size to use vw units */
+  color: rgb(111, 60, 58);
+  margin-bottom: 4vh;
+  font-weight: bold;
+}
+
+.body1 {
+  font-family: 'MrsEavesRoman Regular';
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  font-size: 2.5vw;
+  /* Adjusted font size to use vw units */
+  color: rgb(111, 60, 58);
+  margin-bottom: 2vh;
+  /* Adjusted margin-bottom to use vh units */
+}
+
+.address {
+  font-size: 1.5vw;
+  /* Adjusted font size to use vw units */
+  font-style: italic;
+  font-weight: normal;
+}
+
+.selected {
+  background-color: 'rgb(111, 60, 58)';
+  color: white;
+  /* Removed comma */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.language-switcher-button {
+  color: rgb(111, 60, 58);
+  cursor: pointer;
+  margin-right: 2vw;
+  /* Adjusted margin-right to use vw units */
+}
+
+
+/* Add styles for the selected button */
+.language-buttons button.selected {
+  background-color: rgb(111, 60, 58);
+  color: white;
+}
+
+.language-buttons button {
+  /* Add general button styles here */
+  margin-right: 1vw;
+  /* Adjusted margin-right to use vw units */
+}
+
+
+.container {
+  /* display: flex;
+    justify-content: center; */
+  /* Horizontal centering */
+  align-items: center;
+  /* Vertical centering */
+  height: 100vh;
+  /* Adjust height as needed */
+}
