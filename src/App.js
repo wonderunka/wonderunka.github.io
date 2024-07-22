@@ -49,8 +49,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          {/* <Envelope nameFromUrl={nameFromUrl} setLanguage={setLanguage} language={language} /> */}
-          <Website />
+          <Envelope nameFromUrl={nameFromUrl} setLanguage={setLanguage} language={language} />
         </Route>
         <Route path="/invitation">
           <InvitationPage weddingType={event} language={language} locales={locales} />
