@@ -62,74 +62,6 @@
   right: 10px;
 }
 
-/* Center the image at the top */
-.image-container-top {
-  margin-top: -90px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  /* margin-bottom: 20px; */
-}
-
-/* Center the design-bottom image at the bottom */
-.image-container-bottom {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  transform: rotate(180deg);
-  margin-top: -40px;
-}
-
-/* Styles for language switcher button */
-.language-switcher-button {
-  color: rgb(111, 60, 58);
-  cursor: pointer;
-  margin-right: 10px;
-}
-
-.rsvp-button {
-  color: rgb(111, 60, 58);
-  cursor: pointer;
-  margin-right: 10px;
-  height: 35px;
-}
-
-/* Center the name container */
-.name-container {
-  margin-top: -50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-/* Styles for the home tab picture */
-.home-tab-picture {
-  display: block;
-  width: 50%;
-  /* Set the width to 50% */
-  margin: 0;
-  margin-bottom: 30px;
-  box-sizing: border-box;
-  border: 8px solid rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  margin-bottom: 8px;
-}
-
-input,
-select {
-  margin-bottom: 16px;
-  padding: 8px;
-}
-
 /* Media query for phones */
 @media (max-width: 767px) {
   .image-container {
@@ -143,26 +75,14 @@ select {
   }
 
   .language-switcher-container {
-    top: 10px;
-    right: 10px;
-  }
-
-  .image-container-top {
-    margin-top: 0;
-    align-items: center;
-  }
-
-  .image-container-bottom {
-    margin-top: 0;
-  }
-
-  .name-container {
-    margin-top: 0;
-  }
-
-  .home-tab-picture {
-    width: 80%;
-    /* Set a larger width for smaller screens */
-    margin-bottom: 20px;
+    position: absolute;
+    bottom: 10px;
+    /* Align to the bottom */
+    left: 10px;
+    /* Align to the left */
+    top: auto;
+    /* Reset top value */
+    right: auto;
+    /* Reset right value */
   }
 }
