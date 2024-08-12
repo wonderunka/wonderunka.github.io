@@ -9,6 +9,7 @@ function Prague({ locale }) {
             <Box sx={{ textAlign: 'center', margin: '40px' }}>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2567.900763531584!2d14.991460100000005!3d49.93820329999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470c6e141bb905d5%3A0x39685235cf89b41!2smill%20Dav%C3%ADdkov!5e0!3m2!1sen!2sus!4v1704681827248!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <Typography variant="body1">
+                    {LOCALES[locale].LOCATION.LEARN_MORE}{" "}
                     <a href="https://www.mlyndavidkov.cz/svatby/" target="_blank" rel="noopener noreferrer">
                         {LOCALES[locale].LOCATION.CLICK_HERE}
                     </a>
