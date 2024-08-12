@@ -344,7 +344,7 @@ export const LOCALES = {
       OUR_JOURNEY: 'Naše cesta',
     },
     LOCATION: {
-      DISCOVER_LOCATION: 'Jak se dostat do Mlýna',
+      DISCOVER_LOCATION: 'Jak se dostat na místo naší svatby',
       LEARN_MORE: 'Zjistěte více o místě',
       CLICK_HERE: 'klikněte zde',
       START_IN: 'Začněte v',
@@ -391,7 +391,7 @@ export const LOCALES = {
       MEAT: 'Masitý',
     },
     COMPONENTS: {
-      DISCOVER_LOCATION: 'Jak se dostat do Mlýna',
+      DISCOVER_LOCATION: 'Jak se dostat na místo naší svatby',
       ENGLISH: 'ANGLIČTINA',
       TURKISH: 'TUREČTINA',
       CZECH: 'ČEŠTINA',
