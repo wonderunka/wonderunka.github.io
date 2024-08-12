@@ -36,6 +36,7 @@ import alaska from "./pics/Alaska.jpg"
 import alaska2 from "./pics/Alaska2.jpg"
 import alaska3 from "./pics/alaska3.jpg"
 import paloAlto from "./pics/paloAlto.jpg"
+import carmel from "./pics/carmel.jpg"
 import ny from "./pics/ny.jpg"
 // locales
 import { LOCALES } from '../locales/locales';
@@ -176,8 +177,8 @@ const galleryData = [
         title: 'alaska2',
     },
     {
-        img: paloAlto,
-        title: 'paloAlto',
+        img: carmel,
+        title: 'carmel',
     },
     {
         img: bayArea,
