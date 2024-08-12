@@ -77,7 +77,7 @@ export const LOCALES = {
       OUR_JOURNEY: 'Our Journey',
     },
     LOCATION: {
-      DISCOVER_LOCATION: 'Wedding Location',
+      DISCOVER_LOCATION: 'How to get to our wedding venue',
       LEARN_MORE: 'Learn more about the location',
       CLICK_HERE: 'click here',
       START_IN: 'Start in',
@@ -127,7 +127,7 @@ export const LOCALES = {
       CONFIRMATION_3: 'guests at the wedding!',
     },
     COMPONENTS: {
-      DISCOVER_LOCATION: 'Our Wedding Location',
+      DISCOVER_LOCATION: 'How to get to our wedding venue',
       ENGLISH: 'ENGLISH',
       TURKISH: 'TURKISH',
       CZECH: 'CZECH',
@@ -212,7 +212,7 @@ export const LOCALES = {
       OUR_JOURNEY: 'Bizim Yolculuğumuz',
     },
     LOCATION: {
-      DISCOVER_LOCATION: 'Düğün Mekanımız',
+      DISCOVER_LOCATION: 'Düğün mekanımıza nasıl gidilir',
       LEARN_MORE: 'Lokasyon hakkında daha fazla bilgi edinin',
       CLICK_HERE: 'buraya tıklayın',
       START_IN: 'da Başla',
@@ -259,7 +259,7 @@ export const LOCALES = {
       MEAT: 'Et',
     },
     COMPONENTS: {
-      DISCOVER_LOCATION: 'Düğün Mekanımız',
+      DISCOVER_LOCATION: 'Düğün mekanımıza nasıl gidilir',
       ENGLISH: 'İNGİLİZCE',
       TURKISH: 'TÜRKİYE',
       CZECH: 'ÇEK',
@@ -344,7 +344,7 @@ export const LOCALES = {
       OUR_JOURNEY: 'Naše cesta',
     },
     LOCATION: {
-      DISCOVER_LOCATION: 'Svatební místo',
+      DISCOVER_LOCATION: 'Jak se dostat do Mlýna',
       LEARN_MORE: 'Zjistěte více o místě',
       CLICK_HERE: 'klikněte zde',
       START_IN: 'Začněte v',
@@ -391,7 +391,7 @@ export const LOCALES = {
       MEAT: 'Masitý',
     },
     COMPONENTS: {
-      DISCOVER_LOCATION: 'Svatební místo',
+      DISCOVER_LOCATION: 'Jak se dostat do Mlýna',
       ENGLISH: 'ANGLIČTINA',
       TURKISH: 'TUREČTINA',
       CZECH: 'ČEŠTINA',
