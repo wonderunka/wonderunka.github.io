@@ -109,36 +109,38 @@ function Website({ event, language }) {
 
   return (
     <ThemeProvider theme={theme}>
-      <Box
-        position="relative" /* Add this style to make the container relative */
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        flexDirection="column"
-        marginBottom="50px"
-        marginTop="50px"
-      >
-        <div className="image-container-top">
+      <div>
+        <Box
+          position="relative" /* Add this style to make the container relative */
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          flexDirection="column"
+          marginBottom="50px"
+          marginTop="50px"
+        >
+          <div className="image-container-top">
+            <img
+              src={design}
+              alt="design-top"
+              style={{ transform: 'scale(0.8)', marginTop: '-40px' }}
+            />
+          </div>
+          <div className="language-switcher-container">
+            <LanguageSwitcher onLanguageChange={handleLanguageChange} locale={locale} />
+          </div>
+          <div className="name-container">
+            <div style={textStyles}>{'Barbora & Serhat'}</div>
+          </div>
+        </Box>
+        <MyTabs locale={locale} event={event} />
+        <div className="image-container-bottom">
           <img
             src={design}
-            alt="design-top"
-            style={{ transform: 'scale(0.8)', marginTop: '-40px' }}
+            alt="design-bottom"
+            style={{ transform: 'scale(0.8)', marginBottom: '40px' }}
           />
         </div>
-        <div className="language-switcher-container">
-          <LanguageSwitcher onLanguageChange={handleLanguageChange} locale={locale} />
-        </div>
-        <div className="name-container">
-          <div style={textStyles}>{'Barbora & Serhat'}</div>
-        </div>
-      </Box>
-      <MyTabs locale={locale} event={event} />
-      <div className="image-container-bottom">
-        <img
-          src={design}
-          alt="design-bottom"
-          style={{ transform: 'scale(0.8)', marginBottom: '40px' }}
-        />
       </div>
     </ThemeProvider>
   );
