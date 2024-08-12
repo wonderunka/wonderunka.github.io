@@ -77,7 +77,7 @@ export const LOCALES = {
       OUR_JOURNEY: 'Our Journey',
     },
     LOCATION: {
-      DISCOVER_LOCATION: 'Discover Our Wedding Location',
+      DISCOVER_LOCATION: 'Wedding Location',
       LEARN_MORE: 'Learn more about the location',
       CLICK_HERE: 'click here',
       START_IN: 'Start in',
@@ -89,11 +89,11 @@ export const LOCALES = {
         PURCHASE_TICKET: 'Purchase a train ticket to Kolín.',
         TRAVEL_KOLIN: 'Travel to Kolín:',
         BOARD_TRAIN: 'Board a train bound for Kolín at Prague main train station.',
-        RELAX_RIDE: 'Relax and enjoy the scenic train ride to Kolín. The travel time is around 40 minutes.',
+        RELAX_RIDE: 'The travel time is around 40 minutes.',
         ARRIVE_KOLIN: 'Arrive at Kolín:',
-        DISEMBARK_KOLIN: 'Leave a train at Kolín main train station, "Kolín hlavní nádraží."',
+        DISEMBARK_KOLIN: 'Leave a train at "Kolín hlavní nádraží."',
         CONTINUE_BARCHOVICE: 'Continue to Barchovice:',
-        TAKE_LOCAL_TRANSPORT: 'You may choose to travel to Barchovice via convenient options such as taxis or Uber. It will take around 20 minutes.',
+        TAKE_LOCAL_TRANSPORT: 'You may choose to travel to Barchovice by taxi or Uber. It will take around 20 minutes.',
         TRAVEL_OPTIONS: 'Alternatively, please provide us with details about your train for arranging transportation, ensuring a smooth journey to join us on our special day.',
       },
       ISTANBUL: {
@@ -127,7 +127,7 @@ export const LOCALES = {
       CONFIRMATION_3: 'guests at the wedding!',
     },
     COMPONENTS: {
-      DISCOVER_LOCATION: 'Discover Our Wedding Location',
+      DISCOVER_LOCATION: 'Our Wedding Location',
       ENGLISH: 'ENGLISH',
       TURKISH: 'TURKISH',
       CZECH: 'CZECH',
@@ -212,7 +212,7 @@ export const LOCALES = {
       OUR_JOURNEY: 'Bizim Yolculuğumuz',
     },
     LOCATION: {
-      DISCOVER_LOCATION: 'Düğün Yerimizi Keşfedin',
+      DISCOVER_LOCATION: 'Düğün Mekanımız',
       LEARN_MORE: 'Lokasyon hakkında daha fazla bilgi edinin',
       CLICK_HERE: 'buraya tıklayın',
       START_IN: 'da Başla',
@@ -259,7 +259,7 @@ export const LOCALES = {
       MEAT: 'Et',
     },
     COMPONENTS: {
-      DISCOVER_LOCATION: 'Düğün Yerimizi Keşfedin',
+      DISCOVER_LOCATION: 'Düğün Mekanımız',
       ENGLISH: 'İNGİLİZCE',
       TURKISH: 'TÜRKİYE',
       CZECH: 'ÇEK',
@@ -344,7 +344,7 @@ export const LOCALES = {
       OUR_JOURNEY: 'Naše cesta',
     },
     LOCATION: {
-      DISCOVER_LOCATION: 'Naše svatební místo',
+      DISCOVER_LOCATION: 'Svatební místo',
       LEARN_MORE: 'Zjistěte více o místě',
       CLICK_HERE: 'klikněte zde',
       START_IN: 'Začněte v',
@@ -391,7 +391,7 @@ export const LOCALES = {
       MEAT: 'Masitý',
     },
     COMPONENTS: {
-      DISCOVER_LOCATION: 'Objevte naše svatební místo',
+      DISCOVER_LOCATION: 'Svatební místo',
       ENGLISH: 'ANGLIČTINA',
       TURKISH: 'TUREČTINA',
       CZECH: 'ČEŠTINA',
