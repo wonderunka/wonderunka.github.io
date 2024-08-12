@@ -74,7 +74,7 @@ export const LOCALES = {
       STORY4: 'As they continue their journey, Barbora and Serhat are excited to begin this new chapter in their lives, hand in hand, embracing the promise of a future filled with love, adventure, and shared dreams. Their love story is a testament to the power of belief, support, and the joy that comes from pursuing ones passions and exploring the world together.',
     },
     GALLERY: {
-      OUR_JOURNEY: 'Our Journey in Photos',
+      OUR_JOURNEY: 'Our Journey',
     },
     LOCATION: {
       DISCOVER_LOCATION: 'Discover Our Wedding Location',
@@ -209,7 +209,7 @@ export const LOCALES = {
       STORY4: "Barbora ve Serhat, yolculuklarına devam ettikçe, el ele bu yeni bölümü hayatlarına başlamaktan heyecan duyuyorlar, aşk, macera ve ortak hayallerle dolu bir geleceğin vaadini kucaklayarak. Onların aşk hikayesi, inanç, destek ve birlikte dünyayı keşfetmenin getirdiği mutluluğun gücünün bir kanıtıdır."
     },
     GALLERY: {
-      OUR_JOURNEY: 'Fotoğraflarla Bizim Yolumuz',
+      OUR_JOURNEY: 'Bizim Yolculuğumuz',
     },
     LOCATION: {
       DISCOVER_LOCATION: 'Düğün Yerimizi Keşfedin',
@@ -341,7 +341,7 @@ export const LOCALES = {
       STORY4: "Jak pokračují ve své cestě, Barbora a Serhat jsou nadšení začít tuto novou kapitolu svého života, ruku v ruce, v objetí slibů budoucnosti plné lásky, dobrodružství a sdílených snů. Jejich příběh lásky je důkazem síly víry, podpory a radosti, která pramení z následování svých vášní a společného objevování světa."
     },
     GALLERY: {
-      OUR_JOURNEY: 'Náš příběh ve fotografiích',
+      OUR_JOURNEY: 'Naše cesta',
     },
     LOCATION: {
       DISCOVER_LOCATION: 'Naše svatební místo',
