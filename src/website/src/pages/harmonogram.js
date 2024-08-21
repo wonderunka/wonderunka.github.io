@@ -61,11 +61,12 @@ function Harmonogram({ locale, event }) {
                 { title: LOCALES[locale].HOME.TIMELINE.FIRST_DANCE, time: LOCALES[locale].HOME.TIMELINE.PM_17_30, icon: Party, width: '35px', height: '38px' },
                 { title: LOCALES[locale].HOME.TIMELINE.DINNER, time: LOCALES[locale].HOME.TIMELINE.PM_18_30, icon: Lunch, width: '40px', height: '30px' },
                 { title: LOCALES[locale].HOME.TIMELINE.PARTY, time: LOCALES[locale].HOME.TIMELINE.PM_21, icon: Party2, width: '35px', height: '38px' },
+                { title: LOCALES[locale].HOME.TIMELINE.MIDNIGH_SNACK, time: LOCALES[locale].HOME.TIMELINE.PM_23_30, icon: Lunch, width: '40px', height: '30px' },
             ];
         }
         return [];
     };
-    const sunday = { title: LOCALES[locale].HOME.TIMELINE.BREAKFAST, time: '10:00 AM', icon: Lunch, width: '40px', height: '30px' };
+    const sunday = { title: LOCALES[locale].HOME.TIMELINE.BREAKFAST, time: LOCALES[locale].HOME.TIMELINE.AM_10, icon: Lunch, width: '40px', height: '30px' };
     return (
         <Box sx={{ textAlign: 'center', margin: '40px' }}>
             <MyPic />
