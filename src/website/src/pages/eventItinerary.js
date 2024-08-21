@@ -41,12 +41,13 @@ function EventItinerary({ open, handleClose, locationName, address, date, date2,
         { title: LOCALES[locale].HOME.TIMELINE.FIRST_DANCE, time: LOCALES[locale].HOME.TIMELINE.PM_17_30, icon: Party, width: '35px', height: '38px' },
         { title: LOCALES[locale].HOME.TIMELINE.DINNER, time: LOCALES[locale].HOME.TIMELINE.PM_18_30, icon: Lunch, width: '40px', height: '30px' },
         { title: LOCALES[locale].HOME.TIMELINE.PARTY, time: LOCALES[locale].HOME.TIMELINE.PM_21, icon: Party2, width: '35px', height: '38px' },
+        { title: LOCALES[locale].HOME.TIMELINE.MIDNIGH_SNACK, time: LOCALES[locale].HOME.TIMELINE.PM_23_30, icon: Lunch, width: '40px', height: '30px' },
       ];
     }
     return [];
   };
 
-  const sunday = { title: LOCALES[locale].HOME.TIMELINE.BREAKFAST, time: '10:00 AM', icon: Lunch, width: '40px', height: '30px' };
+  const sunday = { title: LOCALES[locale].HOME.TIMELINE.BREAKFAST, time: LOCALES[locale].HOME.TIMELINE.AM_10, icon: Lunch, width: '40px', height: '30px' };
   return (
     <Dialog open={open} onClose={handleClose} maxHeight="50px" maxWidth="50px">
       <Box sx={{ p: 2, textAlign: 'center' }}>
